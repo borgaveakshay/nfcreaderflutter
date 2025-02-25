@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Other existing entries -->
+    
+    <!-- NFC related entries -->
+    <key>NFCReaderUsageDescription</key>
+    <string>We need to use NFC to read payment card details</string>
+    
+    <key>com.apple.developer.nfc.readersession.iso7816.select-identifiers</key>
+    <array>
+        <string>A0000000041010</string>
+        <string>A0000000042010</string>
+        <string>A0000000043060</string>
+        <string>A0000000046000</string>
+    </array>
+</dict>
+</plist>
